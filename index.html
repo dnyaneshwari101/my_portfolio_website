@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media_queries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Dnyaneshwari Katkar</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dnyaneshwari Katkar</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="circle_photo.png" alt="Dnyaneshwari katkar profile picture"/>
+        </div>
+        <div class="section_text">
+            <p class="section_text_p1">Hello, I'am</p>
+            <h1 class="title">Dnyaneshwari Katkar</h1>
+            <p class="section_text_p2">Data analyst</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="window.open('./Dnyaneshwari_katkar_resume.pdf')">Download CV</button>
+                <button class="btn btn-color-2" onclick="location.href='./#contact'">Contact Info</button>
+            </div>
+            <div id="socials-container">
+                <img src="linkedin_logo.png" alt="My LinkedIn profile" class="LinkedIn_icon" onclick="location.href='https://www.linkedin.com/in/dwwwnyaneshwari-katkar-237479250/'"/>
+                <img src="github_logo.webp" alt="My Github profile" class="github_icon" onclick="location.href='https://github.com/dnyaneshwari101'"/>
+                <img src="Hackerrank_logo.png" alt="My Hackerrank profile" class="hackerrank_icon" onclick="location.href='https://www.hackerrank.com/profile/dnyaneshwarikat1'"/>
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section_text_p1">Get To Know More</p>
+        <h1 class="title">About Me</h1>
+        <div class="About-pic-container">
+            <img src="my_pic_2.jpg" alt="profile picture" class="about-pic"/>
+        </div>
+        <div class="about-containers">
+            <div class="about-details-container">
+                    <img src="experience_icon.jpg" alt="experience icon" class="icon"/>
+                    <h3>Experience</h3>
+                    <p>3 months internship at Celebal Technologies<br>Data Analyst</p>
+            </div>
+                <div class="about-details-container">
+                    <img src="education_icon.jpg" alt="education icon" class="icon"/>
+                    <h3>Education</h3>
+                    <ul>
+                        <li>B.Tech Computer Engineering: Pimpri Chinchwad College of Engineering, Pune (2021-2025)</li>
+                        <li>Higher Secondary Education (HSC): Disha Public School & Jr. College, Wai (2019-2021)</li>
+                        <li>Secondary School Education (SSC): Mary Matha High School & Jr. College, Mhaswad</li>
+                    </ul>
+                </div>
+        </div>
+        <img src="arrow.webp" alt="arrow icon" class="icon arrow" onclick="location.href='./#skills'"/>
+    </section>
+    <section id="skills">
+        <p class="title">Explore My<br></p>
+        <h1 class="section_text_p1">Skills</h1>
+        <div class="skills-details-container">
+            <div class="skills-containers">
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Web Development</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                            <div>
+                                <h3>JavaScript</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                            <div>
+                                <h3>Git and Github</h3>
+                                <p>Basic</p>
+                            </div>
+                        </article>
+                    </div>   
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Data Analysis</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <p>Experienced</p>
+                            </div>
+                        </article>
+                            <article>
+                                <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                <div>
+                                    <h3>MS Excel</h3>
+                                    <p>Intermediate</p>
+                                </div>
+                            </article>
+                                <article>
+                                    <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                    <div>
+                                        <h3>SQL</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                    <div>
+                                        <h3>MS Power BI</h3>
+                                        <p>Experienced</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                    <div>
+                                        <h3>Statistics</h3>
+                                        <p>Advance</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                    <div>
+                                        <h3>Machine Learning</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="skills-sub-title">Programming Languages</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                            <div>
+                                <h3>C</h3>
+                                <p>Intermediate</p>
+                            </div>
+                        </article>
+                            <article>
+                                <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                <div>
+                                    <h3>C++, OOP</h3>
+                                    <p>Advance</p>
+                                </div>
+                            </article>
+                                <article>
+                                    <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                    <div>
+                                        <h3>Java</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                                <article>
+                                    <img src="check_mark_icon.webp" alt="checkmark icon" class="icon"/>
+                                    <div>
+                                        <h3>Python</h3>
+                                        <p>Intermediate</p>
+                                    </div>
+                                </article>
+                </div>
+            </div>
+        </div>
+        <img src="arrow.webp" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+    </section>
+    <section id="Project">
+        <h1 class="title">Projects</h1>
+        <div class="">
+            <div>
+                
+            </div>
+        </div>
+
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
